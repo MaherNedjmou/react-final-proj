@@ -1,6 +1,7 @@
 :root {
   --primary-color: #004151;
   --secondary-color: #2BAB5A;
+  --accent-color: #0EED71;
   --background-color: #ffffff;
   --background-color-secondary: #eeeeee;
 }
@@ -9,4 +10,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }

@@ -1,10 +1,13 @@
 import './App.css'
+import Hero from './sections/hero/Hero'
+import Trending from './sections/trending/Trending'
 
 function App() {
 
   return (
     <>
-      <h1>Main Page</h1>
+      <Hero />
+      <Trending />
     </>
   )
 }

@@ -1,0 +1,113 @@
+.trending {
+    padding: 4rem 15%;
+}
+
+/* Header */
+.trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.trending-tag {
+    color: var(--accent-color);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.4rem;
+}
+
+.trending-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.trending-view-all {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.8rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.trending-view-all:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Grid */
+.trending-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.trending-card {
+    flex: 1 1 240px;
+    min-width: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    background: var(--background-color-secondary);
+    transition: all 0.25s ease;
+}
+
+.trending-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
+}
+
+/* Image */
+.trending-card-image {
+    position: relative;
+    height: 200px;
+}
+
+.trending-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.trending-rate-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    padding: 6px 12px;
+    line-height: 1.3;
+}
+
+.trending-rate {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.trending-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    background-color: var(--background-color-secondary);
+}
+
+.trending-card-genre {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 0.2rem;
+}
+
+.trending-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}

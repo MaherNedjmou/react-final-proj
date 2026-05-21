@@ -1,0 +1,53 @@
+/* Features.css */
+.features {
+    padding: 0 10%;
+    z-index: 1;
+    width: 100%;
+    margin-top: -80px;
+    margin-bottom: 4rem;
+}
+
+.features-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: white;
+    width: 300px;
+    border-radius: 16px;
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+    transition: all 0.25s ease
+}
+
+.feature-card:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+    scale: 1.02;
+}
+
+.feature-icon {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: var(--primary-color);
+}
+
+.feature-label {
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
