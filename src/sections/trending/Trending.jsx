@@ -1,8 +1,9 @@
 // Trending.jsx
 import "./Trending.css"
 import { FaStar } from "react-icons/fa"
+import CardTrending from "../../components/cardTrending/CardTrending"
 
-const games = [
+const animes = [
   {
     image: "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
     genre: "Action",
@@ -44,30 +45,14 @@ const Trending = () => {
 
       {/* Cards */}
       <div className="trending-grid">
-        {games.map((game, index) => (
-          <div className="trending-card" key={index}>
-
-            {/* Image */}
-            <div className="trending-card-image">
-              <img src={game.image} alt={game.title} />
-
-              {/* Rate badge */}
-              <div className="trending-rate-badge">
-                <span className="trending-rate">{game.rate}
-                    <FaStar className="star-icon" />
-                </span>
-              </div>
-            </div>
-
-            {/* Info */}
-            <div className="trending-card-info">
-              <div>
-                <p className="trending-card-genre">{game.genre}</p>
-                <h3 className="trending-card-title">{game.title}</h3>
-              </div>
-            </div>
-
-          </div>
+        {animes.map((anime, index) => (
+          <CardTrending
+            index={index}
+            image={anime.image}
+            genre={anime.genre}
+            title={anime.title}
+            rate={anime.rate}
+          />
         ))}
       </div>
 
