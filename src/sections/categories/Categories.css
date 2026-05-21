@@ -1,0 +1,33 @@
+.top-categories {
+    padding: 4rem 15%;
+    text-align: center;
+}
+
+/* Header */
+.top-categories-header {
+    margin-bottom: 2.5rem;
+}
+
+.top-categories-tag {
+    color: var(--accent-color);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+}
+
+.top-categories-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+/* Grid */
+.top-categories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+}

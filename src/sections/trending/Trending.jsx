@@ -1,6 +1,5 @@
 // Trending.jsx
 import "./Trending.css"
-import { FaStar } from "react-icons/fa"
 import CardTrending from "../../components/cardTrending/CardTrending"
 
 const animes = [
@@ -47,7 +46,7 @@ const Trending = () => {
       <div className="trending-grid">
         {animes.map((anime, index) => (
           <CardTrending
-            index={index}
+            key={index}
             image={anime.image}
             genre={anime.genre}
             title={anime.title}

@@ -1,7 +1,7 @@
 import "./CardTrending.css"
 import { FaStar } from "react-icons/fa"
 
-const CardTrending = ({index, image, genre, title, rate }) => {
+const CardTrending = ({image, genre, title, rate }) => {
   return (
   <div className="trending-card">
 
