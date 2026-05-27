@@ -46,8 +46,8 @@
 
 /* Grid */
 .most-viewed-grid {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: space-between;
+    gap: 1.3rem;
 }

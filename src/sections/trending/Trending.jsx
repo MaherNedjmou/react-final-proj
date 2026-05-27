@@ -27,6 +27,18 @@ const animes = [
     title: "Hunter X Hunter",
     rate: "9.5",
   },
+  {
+    image: "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+    genre: "Action",
+    title: "Hunter X Hunter",
+    rate: "9.5",
+  },
+  {
+    image: "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+    genre: "Action",
+    title: "Hunter X Hunter",
+    rate: "9.5",
+  },
 ]
 
 const Trending = () => {
