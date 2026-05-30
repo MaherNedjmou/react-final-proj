@@ -69,3 +69,8 @@
 .card-most-played-explore:hover {
     background-color: var(--secondary-color);
 }
+
+
+@media (max-width: 768px) {
+
+}

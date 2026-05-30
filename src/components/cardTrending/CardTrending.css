@@ -63,3 +63,8 @@
     font-weight: 700;
     color: black;
 }
+
+
+@media (max-width: 768px) {
+
+}
