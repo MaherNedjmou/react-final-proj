@@ -75,5 +75,13 @@
 
 
 @media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        padding: 6rem 15%;
+        height: auto;
+    }
 
+    .hero-left h2 , .hero-left h1 {
+        text-align: center;
+    }
 }

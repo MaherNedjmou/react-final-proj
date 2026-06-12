@@ -32,6 +32,16 @@ const animes = [
     genre: "Action",
     name: "HxH",
   },
+    {
+    image: "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+    genre: "Action",
+    name: "HxH",
+  },
+    {
+    image: "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg",
+    genre: "Action",
+    name: "HxH",
+  },
 ]
 const Viewed = () => {
   return (
